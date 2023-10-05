@@ -327,12 +327,15 @@ a {
 :root {
   --main-color-black: #3b434e;
   --primary-accent-color: #7653fc;
+  --primary-hover-color: #542afc;
   --main-statick-color: white;
   --red-accent-color: #de0000;
   --creen-accent-color: #1dc37e;
   --light-green-accent-color: #c8f8e4;
   --not-active-text-color: #787d85;
   --background-color: #f5f6f8;
+  --border-color: #ebebeb;
+
   --main-font: "Noto Sans", sans-serif;
 }
 

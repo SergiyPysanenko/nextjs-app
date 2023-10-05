@@ -21,3 +21,41 @@
   line-height: 25px;
 }
 
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Button/Button.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button__mg_cR {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 10px;
+  cursor: pointer;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+
+  font-size: 14px;
+
+  transition: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.Button_primary__PFIP8 {
+  color: var(--main-statick-color);
+  background-color: var(--primary-accent-color);
+}
+
+.Button_primary__PFIP8:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.Button_secondary__kYMEY {
+  color: var(--main-color-black);
+  background: none;
+  border: 1px solid white;
+  border-color: #ebebeb;
+}
+
+.Button_secondary__kYMEY:hover {
+  background-color: var(--primary-accent-color);
+  color: white;
+}
+
