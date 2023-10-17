@@ -59,3 +59,13 @@
   color: white;
 }
 
+.Button_arrow__9H3gW {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.Button_down__B10xD {
+  transform: rotate(90deg);
+  transform: all 0.2s;
+}
+

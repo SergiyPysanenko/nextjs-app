@@ -32,3 +32,13 @@
   background-color: var(--primary-accent-color);
   color: white;
 }
+
+.arrow {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.down {
+  transform: rotate(90deg);
+  transform: all 0.2s;
+}
