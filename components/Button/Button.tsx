@@ -1,6 +1,8 @@
 import { ButtonProps } from "./Button.props";
 import s from "./Button.module.css";
 import cn from "classnames";
+// import Arrow from "../../public/arrow.svg";
+import { BsArrowRight } from "react-icons/bs";
 
 export const Button = ({
   appearance,
@@ -19,7 +21,10 @@ export const Button = ({
     >
       {children}
       {arrow != "none" && (
-        <span className={cn(s.arrow, { [s.down]: arrow == "down" })}> +++</span>
+        <span className={cn(s.arrow, { [s.down]: arrow == "down" })}>
+          {" "}
+          <BsArrowRight size={12} />
+        </span>
       )}
     </button>
   );
