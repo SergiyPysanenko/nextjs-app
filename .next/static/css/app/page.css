@@ -69,3 +69,25 @@
   transform: all 0.2s;
 }
 
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Ptag/Ptag.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Ptag_p__gYS9Z {
+  margin: 0px;
+}
+
+.Ptag_s__mPPLk {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.Ptag_m__U6vX6 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.Ptag_l__Gq6ly {
+  font-size: 18px;
+  line-height: 29px;
+}
+

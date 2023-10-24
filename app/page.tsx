@@ -1,5 +1,6 @@
 import { Htag } from "@/components/Htag/Htag";
 import { Button } from "@/components/Button/Button";
+import { Ptag } from "@/components/Ptag/Ptag";
 
 export default function Home(): JSX.Element {
   return (
@@ -11,6 +12,9 @@ export default function Home(): JSX.Element {
       <Button appearance="secondary" arrow="right">
         Button!
       </Button>
+      <Ptag size="l">afjjfjf</Ptag>
+      <Ptag size="m">afjjfjf</Ptag>
+      <Ptag size="s">afjjfjf</Ptag>
     </div>
   );
 }
