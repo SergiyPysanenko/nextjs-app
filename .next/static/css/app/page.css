@@ -91,3 +91,57 @@
   line-height: 29px;
 }
 
+/*!*************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./components/Tag/Tag.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************/
+.Tag_tag__9IK3Z {
+  display: inline-block;
+
+  box-sizing: border-box;
+  margin-right: 5px;
+
+  border-radius: 20px;
+}
+
+.Tag_s__wzSCN {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.Tag_m__Wvwoc {
+  padding: 5px 10px;
+
+  font-size: 14px;
+  line-height: 14px;
+}
+
+.Tag_secondary__A0F2f {
+  border: 1px solid var(--border-color);
+}
+
+.Tag_red__H5y0H {
+  color: white;
+  background-color: red;
+  font-weight: bold;
+}
+
+.Tag_grey__w_DyZ {
+  color: white;
+  background-color: #b3c0d9;
+  font-weight: bold;
+}
+
+.Tag_green__ZLBHl {
+  color: var(--green-accent-color);
+  background-color: var(--light-green-accent-color);
+  font-weight: bold;
+}
+
+.Tag_primary__Q9fZg {
+  color: var(--primary-accent-color);
+  background: none;
+
+  border: 1px solid var(--primary-hover-color);
+}
+
