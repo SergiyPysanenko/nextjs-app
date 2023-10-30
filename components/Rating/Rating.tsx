@@ -1,9 +1,8 @@
 'use client';
-
 import { RatingProps } from './Rating.props';
 import s from './Rating.module.css';
 import cn from 'classnames';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, KeyboardEvent } from 'react';
 import { GoStarFill } from 'react-icons/go';
 
 export const Rating = ({
@@ -28,12 +27,41 @@ export const Rating = ({
           color="#cacaca"
           className={cn(s.star, {
             [s.filled]: i < currentRating,
+            [s.editable]: isEditable,
           })}
+          onMouseEnter={() => changeDisplay(i + 1)}
+          onMouseLeave={() => changeDisplay(rating)}
+          onClick={() => onClick(i + 1)}
+          tabIndex={isEditable ? 0 : -1}
+          onKeyDown={(e: KeyboardEvent<SVGElement>) =>
+            isEditable && handleSpace(i + 1, e)
+          }
         />
       );
     });
     setRatingArray(updateArray);
   };
+
+  const changeDisplay = (i: number) => {
+    if (!isEditable) {
+      return;
+    }
+    constructRating(i);
+  };
+
+  const onClick = (i: number) => {
+    if (isEditable || !setRaiting) {
+      return;
+    }
+    setRaiting(i);
+  };
+
+  // const handleSpace = (i: number, e: KeyboardEvent<SVGElement>) => {
+  //   if (e.code != 'Space' || setRaiting) {
+  //     return;
+  //   }
+  //   setRaiting(i);
+  // };
 
   return (
     <div {...props}>

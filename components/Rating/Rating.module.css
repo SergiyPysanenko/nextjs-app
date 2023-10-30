@@ -1,8 +1,11 @@
 .filled {
   fill: var(--primary-accent-color);
-  background-color: white;
 }
 
 .star {
   margin-right: 5px;
+}
+
+.editable {
+  cursor: pointer;
 }
