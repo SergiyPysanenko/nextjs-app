@@ -56,12 +56,12 @@ export const Rating = ({
     setRaiting(i);
   };
 
-  // const handleSpace = (i: number, e: KeyboardEvent<SVGElement>) => {
-  //   if (e.code != 'Space' || setRaiting) {
-  //     return;
-  //   }
-  //   setRaiting(i);
-  // };
+  const handleSpace = (i: number, e: KeyboardEvent<SVGElement>) => {
+    if (e.code != 'Space' || !setRaiting) {
+      return;
+    }
+    setRaiting(i);
+  };
 
   return (
     <div {...props}>

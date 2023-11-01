@@ -3,10 +3,11 @@ import { Button } from '@/components/Button/Button';
 import { Ptag } from '@/components/Ptag/Ptag';
 import { Tag } from './../components/Tag/Tag';
 import { Rating } from '@/components/Rating/Rating';
+import { Layout } from '@/layout/layout';
 
 export default function Home(): JSX.Element {
   return (
-    <div className="div">
+    <Layout>
       <Htag tag="h1">Hello Htag</Htag>
       <Button appearance="primary" className="primary">
         Button!
@@ -33,6 +34,6 @@ export default function Home(): JSX.Element {
         afjjfjf
       </Tag>
       <Rating rating={4} isEditable />
-    </div>
+    </Layout>
   );
 }

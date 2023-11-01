@@ -25,10 +25,9 @@
     "@typescript-eslint/parser": "^6.7.3",
     "eslint": "^8.50.0",
     "eslint-config-next": "latest",
-    "stylelint": "^15.10.3",
     "stylelint-config-recess-order": "^4.3.0",
     "stylelint-config-standard": "^34.0.0",
-    "stylelint-order": "^6.0.3",
-    "typescript": "latest"
+    "typescript": "latest",
+    "yarn": "^1.22.19"
   }
 }
