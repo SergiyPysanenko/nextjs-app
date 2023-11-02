@@ -3,11 +3,11 @@ import { Button } from '@/components/Button/Button';
 import { Ptag } from '@/components/Ptag/Ptag';
 import { Tag } from './../components/Tag/Tag';
 import { Rating } from '@/components/Rating/Rating';
-import { Layout } from '@/layout/layout';
+import { WithLayout } from '@/layout/layout';
 
-export default function Home(): JSX.Element {
+function Home(): JSX.Element {
   return (
-    <Layout>
+    <>
       <Htag tag="h1">Hello Htag</Htag>
       <Button appearance="primary" className="primary">
         Button!
@@ -15,25 +15,27 @@ export default function Home(): JSX.Element {
       <Button appearance="secondary" arrow="right">
         Button!
       </Button>
-      <Ptag size="l">afjjfjf</Ptag>
-      <Ptag size="m">afjjfjf</Ptag>
-      <Ptag size="s">afjjfjf</Ptag>
+      <Ptag size="l">Button</Ptag>
+      <Ptag size="m">Button</Ptag>
+      <Ptag size="s">Button</Ptag>
       <Tag size="s" color="secondary">
-        afjjfjf
+        TAG
       </Tag>
       <Tag size="s" color="red">
-        afjjfjf
+        TAG
       </Tag>
       <Tag size="s" color="grey">
-        afjjfjf
+        TAG
       </Tag>
       <Tag size="s" color="green">
-        afjjfjf
+        TAG
       </Tag>
       <Tag size="s" color="primary">
-        afjjfjf
+        TAG
       </Tag>
       <Rating rating={4} isEditable />
-    </Layout>
+    </>
   );
 }
+
+export default WithLayout(Home);
