@@ -160,3 +160,49 @@
   border: 1px solid var(--primary-hover-color);
 }
 
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./layout/layuot.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.layuot_wrapper__3nBG8 {
+  display: grid;
+  grid-template-columns: auto 230px minmax(320px, 1200px) auto;
+  min-height: 100vh;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    '. header header .'
+    '. sidebar body . '
+    'footer footer footer footer';
+}
+
+.layuot_header__Iw_AC {
+  grid-area: header;
+}
+
+.layuot_sidebar__F3iM3 {
+  grid-area: sidebar;
+}
+
+.layuot_body__hUwlQ {
+  grid-area: body;
+}
+
+.layuot_footer__HMIbD {
+  grid-area: footer;
+}
+
+@media (max-width: 756px) {
+  .layuot_wrapper__3nBG8 {
+    grid-template-columns: minmax(320px, 1fr);
+    grid-template-areas:
+      'header'
+      'body'
+      'footer';
+  }
+  .layuot_sidebar__F3iM3 {
+    display: none;
+  }
+  .layuot_sidebar__F3iM3 {
+    display: block;
+  }
+}
+
