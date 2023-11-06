@@ -167,6 +167,8 @@
   display: grid;
   grid-template-columns: auto 230px minmax(320px, 1200px) auto;
   min-height: 100vh;
+  grid-gap: 0 30px;
+  gap: 0 30px;
   grid-template-rows: auto 1fr auto;
   grid-template-areas:
     '. header header .'
@@ -203,6 +205,32 @@
   }
   .layuot_sidebar__F3iM3 {
     display: block;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./layout/Footer/Footer.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Footer_footer__92fMa {
+  background-color: var(--primary-accent-color);
+  color: var(--main-statick-color);
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  grid-gap: 10px 40px;
+  gap: 10px 40px;
+  padding: 25px 30px;
+
+  font-size: 16px;
+  line-height: 1.2;
+}
+
+.Footer_footer__92fMa a:hover {
+  color: #cfcfcf;
+}
+
+@media (max-width: 756px) {
+  .Footer_footer__92fMa {
+    grid-template-columns: 1fr;
   }
 }
 
